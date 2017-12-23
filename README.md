@@ -22,4 +22,4 @@ This is an API for cafe bazaar to use in Delphi mobile apps.
 
 ### License
 
-React is [GNU General Public License](./LICENSE).
+BazaarAPI is [GNU General Public License](./LICENSE).
