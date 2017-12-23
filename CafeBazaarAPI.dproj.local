@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/08/28 20:15:32.000.514,=C:\Users\kom\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/09/29 08:16:54.000.545,=C:\Users\kom\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/11/24 21:29:30.000.636,=C:\Users\kom\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/12/16 16:17:26.000.257,=C:\Users\kom\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/12/21 17:24:21.000.953,=C:\Users\kom\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/12/21 17:24:52.000.840,C:\Users\kom\Documents\Embarcadero\Studio\Projects\Unit3.pas=E:\Programming\MyProjects\Tools\MainForm.pas</Transaction>
+    <Transaction>2017/12/21 17:24:52.000.840,C:\Users\kom\Documents\Embarcadero\Studio\Projects\Unit3.fmx=E:\Programming\MyProjects\Tools\MainForm.fmx</Transaction>
+    <Transaction>2017/12/21 17:25:18.000.718,C:\Users\kom\Documents\Embarcadero\Studio\Projects\Project3.dproj=E:\Programming\MyProjects\Tools\CafeBazaarAPI.dproj</Transaction>
+    <Transaction>2017/12/21 17:27:08.000.768,=E:\Programming\MyProjects\Tools\BazaarAPI\com.Asanyab.BazaarAPI.pas</Transaction>
+    <Transaction>2017/12/21 17:27:08.000.782,=E:\Programming\MyProjects\Tools\BazaarAPI\com.Asanyab.BazaarAPI.UpdateCheckService.pas</Transaction>
+    <Transaction>2017/12/21 17:27:08.000.367,=E:\Programming\MyProjects\Tools\BazaarAPI\com.Asanyab.BazaarAPI.LoginCheckServiceConnection.pas</Transaction>
+    <Transaction>2017/12/21 17:27:18.000.432,=E:\Programming\MyProjects\Tools\BazaarAPI\BazaarAPI.jar</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="c1607f31ae9114f"/>
+	</ActiveMobileDevice>
+</BorlandProject>

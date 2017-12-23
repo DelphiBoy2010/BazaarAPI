@@ -1,0 +1,115 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 619
+  ClientWidth = 435
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object DetailPanel: TPanel
+    Align = Client
+    Size.Width = 435.000000000000000000
+    Size.Height = 619.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout3: TLayout
+      Align = Top
+      Padding.Top = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 146.000000000000000000
+      Size.Width = 415.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object btnAboutUs: TButton
+        Align = Contents
+        ImageIndex = 2
+        Size.Width = 415.000000000000000000
+        Size.Height = 37.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = #1583#1585#1576#1575#1585#1607' '#1605#1575
+      end
+    end
+    object Layout5: TLayout
+      Align = Top
+      Padding.Top = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 99.000000000000000000
+      Size.Width = 415.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object btnOtherApps: TButton
+        Align = Contents
+        ImageIndex = 5
+        Size.Width = 415.000000000000000000
+        Size.Height = 37.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = #1587#1575#1740#1585' '#1576#1585#1606#1575#1605#1607' '#1607#1575#1740' '#1605#1575
+      end
+    end
+    object Layout7: TLayout
+      Align = Top
+      Padding.Top = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 415.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object btnHelp: TButton
+        Align = Contents
+        ImageIndex = 6
+        Size.Width = 415.000000000000000000
+        Size.Height = 37.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = #1585#1575#1607#1606#1605#1575
+      end
+    end
+    object Layout8: TLayout
+      Align = Top
+      Padding.Top = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 415.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object btnVote: TButton
+        Align = Contents
+        ImageIndex = 1
+        Size.Width = 415.000000000000000000
+        Size.Height = 37.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = #1606#1592#1585' '#1583#1575#1583#1606
+        OnClick = btnVoteClick
+      end
+    end
+  end
+end
