@@ -7,6 +7,8 @@ object Form3: TForm3
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
   DesignerMasterStyle = 0
   object DetailPanel: TPanel
     Align = Client
@@ -35,7 +37,8 @@ object Form3: TForm3
         Size.Height = 37.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
-        Text = #1583#1585#1576#1575#1585#1607' '#1605#1575
+        Text = 'AboutUs'
+        OnClick = btnAboutUsClick
       end
     end
     object Layout5: TLayout
@@ -59,7 +62,8 @@ object Form3: TForm3
         Size.Height = 37.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
-        Text = #1587#1575#1740#1585' '#1576#1585#1606#1575#1605#1607' '#1607#1575#1740' '#1605#1575
+        Text = 'Other Apps'
+        OnClick = btnOtherAppsClick
       end
     end
     object Layout7: TLayout
@@ -76,15 +80,15 @@ object Form3: TForm3
       Size.Height = 37.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 3
-      object btnHelp: TButton
+      object btnCheckUpdate: TButton
         Align = Contents
         ImageIndex = 6
         Size.Width = 415.000000000000000000
         Size.Height = 37.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
-        Text = #1585#1575#1607#1606#1605#1575
-        OnClick = btnHelpClick
+        Text = 'Check Update'
+        OnClick = btnCheckUpdateClick
       end
     end
     object Layout8: TLayout
@@ -108,7 +112,7 @@ object Form3: TForm3
         Size.Height = 37.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
-        Text = #1606#1592#1585' '#1583#1575#1583#1606
+        Text = 'Vote'
         OnClick = btnVoteClick
       end
     end

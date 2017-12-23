@@ -6,7 +6,8 @@ uses
   MainForm in 'MainForm.pas' {Form3},
   com.Asanyab.BazaarAPI.LoginCheckServiceConnection in 'BazaarAPI\com.Asanyab.BazaarAPI.LoginCheckServiceConnection.pas',
   com.Asanyab.BazaarAPI in 'BazaarAPI\com.Asanyab.BazaarAPI.pas',
-  com.Asanyab.BazaarAPI.UpdateCheckService in 'BazaarAPI\com.Asanyab.BazaarAPI.UpdateCheckService.pas';
+  com.Asanyab.BazaarAPI.UpdateCheckService in 'BazaarAPI\com.Asanyab.BazaarAPI.UpdateCheckService.pas',
+  Android.Tools in 'Android.Tools.pas';
 
 {$R *.res}
 
