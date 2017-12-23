@@ -84,6 +84,7 @@ object Form3: TForm3
         Size.PlatformDefault = False
         TabOrder = 0
         Text = #1585#1575#1607#1606#1605#1575
+        OnClick = btnHelpClick
       end
     end
     object Layout8: TLayout

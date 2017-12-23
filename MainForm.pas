@@ -19,6 +19,7 @@ type
     Layout8: TLayout;
     btnVote: TButton;
     procedure btnVoteClick(Sender: TObject);
+    procedure btnHelpClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,6 +32,11 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure TForm3.btnHelpClick(Sender: TObject);
+begin
+  //Test
+end;
 
 procedure TForm3.btnVoteClick(Sender: TObject);
 begin
